@@ -28,6 +28,14 @@ body {
     align-items: center;
 }
 
+.about, 
+.interests {
+    margin: 5 40px;
+    display: flex;
+    flex-direction: column;
+    border-bottom:#918E9B solid .5px;
+}
+
 img {
     width:100%;
     object-fit: cover;
@@ -64,14 +72,6 @@ img {
     font-size: 15px;
     margin: 5px;
     color: rgba(243,191,153, .7);
-}
-
-.about, 
-.interests {
-    margin: 5 40px;
-    display: flex;
-    flex-direction: column;
-    border-bottom:#918E9B solid .5px;
 }
 
 
