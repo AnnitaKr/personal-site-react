@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-  
+    /* border: red solid 1px; */
 }
 
 body {
@@ -18,35 +18,32 @@ body {
     background-color: #161619;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
+    justify-content: stretch;
+}
+
+.info {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 img {
     width:100%;
     object-fit: cover;
-    height: 30vh
-}
-
-.info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 15px;
+    height: 25vh;
 }
 
 .primary-heading {
     font-size: 25px;
     font-weight: 700;
-    margin: 20px 0 5px;
-    padding-top: 15px;
+    margin-bottom: 0;
 }
 
 .profession {
     color: #F3BF99;
     font-weight: 400;
     font-size: 12px;
-    margin: 0;
 }
 
 
@@ -71,16 +68,10 @@ img {
 
 .about, 
 .interests {
-    padding: 0px 15px 10;
-    margin: 0 45px;
+    margin: 5 40px;
     display: flex;
     flex-direction: column;
     border-bottom:#918E9B solid .5px;
-}
-
-.about {
-    border-top:#918E9B solid .5px;
-    padding-top: 10px;
 }
 
 
@@ -88,8 +79,6 @@ img {
     font-weight: 700;
     font-size: 16px;
     color: #F5F5F5;
-    margin-top: 10px;
-    margin-bottom: 0;
 }
 
 .regular-paragraph {
@@ -97,8 +86,6 @@ img {
     font-weight: 400;
     line-height: 1.5;
     color: #DCDCDC;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
 .social-icons {
@@ -122,14 +109,13 @@ img {
     font-size: 16px;
     color: #ffff;
     margin: 10px;
-    padding: 9px 13px 9px 11px;
+    padding: 9px 13px;
     background-color: #5093E2;
     border-radius: 6px;
     width: 115px;
     height: 34px;
     text-align: center;
     transition: width .5s;
-
 }
 
 .link-info:hover,
@@ -140,7 +126,6 @@ img {
 
 .footer {
     background-color: #161619;
-    margin-top: 30px;
 }
 
 .flex-skills {

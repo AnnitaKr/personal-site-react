@@ -8,13 +8,16 @@ import Skills from "./components/Skills"
 
 export default function App() {
     return (
-        <div className="page">
+
+         <div className="page">
             <Info />
             <About />
             <Interests />
             <Skills />
             <Footer />
         </div>
+        
+       
     )
 }
 
