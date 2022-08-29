@@ -7,12 +7,12 @@ export default function Skills() {
         <p className="regular-paragraph">
             <div className="flex-skills">
                 <div>
-                    HTML, CSS, JavaScript <i class="fa-solid fa-square-check"></i> <br></br>
-                    React.js <i class="fa-solid fa-square-check"></i>
+                    <i class="fa-solid fa-square-check"></i> HTML, CSS, JavaScript <br></br>
+                    <i class="fa-solid fa-square-check"></i> React.js 
                 </div>
                 <div>
-                    English language C2 <i class="fa-solid fa-square-check"></i> <br></br>
-                    Spanish language B2 <i class="fa-solid fa-square-check"></i>
+                    <i class="fa-solid fa-square-check"></i>  English language C2<br></br>
+                    <i class="fa-solid fa-square-check"></i>  Spanish language B2 
                 </div>
             </div>
         </p>
