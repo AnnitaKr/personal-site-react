@@ -4,6 +4,7 @@ import About from "./components/About"
 import Info from "./components/Info"
 import Footer from "./components/Footer"
 import Interests from "./components/Interests"
+import Skills from "./components/Skills"
 
 export default function App() {
     return (
@@ -11,6 +12,7 @@ export default function App() {
             <Info />
             <About />
             <Interests />
+            <Skills />
             <Footer />
         </div>
     )
