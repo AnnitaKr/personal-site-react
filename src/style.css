@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    /* border: red solid 1px; */
 }
 
 body {
@@ -23,6 +22,7 @@ body {
 
 .info {
     margin: 15px;
+    margin-bottom: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +31,7 @@ body {
 img {
     width:100%;
     object-fit: cover;
-    height: 25vh;
+    height: 30vh;
 }
 
 .primary-heading {
@@ -82,6 +82,7 @@ img {
 }
 
 .regular-paragraph {
+    margin-top: 0;
     font-size: 11px;
     font-weight: 400;
     line-height: 1.5;
