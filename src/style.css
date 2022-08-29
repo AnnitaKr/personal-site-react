@@ -21,8 +21,7 @@ body {
 }
 
 .info {
-    margin: 15px;
-    margin-bottom: 0;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,9 +30,14 @@ body {
 .about, 
 .interests {
     margin: 5 40px;
+    padding: 4px;
     display: flex;
     flex-direction: column;
     border-bottom:#918E9B solid .5px;
+}
+
+.about {
+    border-top: #918E9B solid .5px;
 }
 
 img {
@@ -78,7 +82,12 @@ img {
 .secondary-heading {
     font-weight: 700;
     font-size: 16px;
+    margin-top: 0;
     color: #F5F5F5;
+}
+
+.about > .secondary-heading {
+    margin-top: 10px;
 }
 
 .regular-paragraph {
